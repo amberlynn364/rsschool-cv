@@ -1,16 +1,64 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: Source Sans Pro;
+     src: url("assets/fonts/SourceSansPro-Regular.ttf");
+   }
+.header {
+    background-color: #131324;
+}   
+* {
+    box-sizing: border-box;
+  }
+
+
+header {
+    display: block;
 }
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400; 
+  }
+  
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+.nav-link {
+        position: relative;
+        padding: 0 12px;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 50px;
+        color: #fff;
+    }
+ 
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link {
+    transition: .3s;
+  }
+.section-item a {
+    color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+.section-item a:hover {
+    color: #4d2323;
+  }
