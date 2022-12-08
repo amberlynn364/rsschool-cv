@@ -9,7 +9,6 @@
     box-sizing: border-box;
   }
 
-
 header {
     display: block;
     max-width: 1440px;
@@ -30,7 +29,8 @@ body {
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 400; 
+    font-weight: 400;
+    
   }
   
 .container {
@@ -69,7 +69,7 @@ html {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 5px 30px 150px;
+  padding: 25px 30px 25px;
   background-color: #1d1c3b;
   font-size: 20px;
   font-weight: 300;
@@ -82,15 +82,13 @@ html {
   height: 400px;
   object-fit: cover;
   border-radius: 0%;
-  box-shadow: 0 90px 4px rgb(0 0 0 / 60%);
   filter: grayscale(0.2) brightness(75%) contrast(1.5);
   transition: .3s;
 }
-.profile-logo-margin {
-  margin: 50px 7px -59px 5px;
-  background-image: src;
+
+
  
-}
+
 
 .section-profile-title {
   display: flex;
@@ -125,18 +123,31 @@ html {
   font-weight: 300;
   letter-spacing: 3px;
 }
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+  background-color: #d8d8db;
+}
+.section-title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color: #1d1c3b;
+  ;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
 
 
-
-
-
-
-.section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-
-.section-item a:hover {
-    color: #4d2323;
-  }
