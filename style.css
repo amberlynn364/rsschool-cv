@@ -69,13 +69,29 @@ html {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 5px 30px 250px;
+  padding: 5px 30px 150px;
   background-color: #1d1c3b;
   font-size: 20px;
   font-weight: 300;
   line-height: 50px;
   color: #fff;
 }
+
+.section-profile-logo {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 0%;
+  box-shadow: 0 90px 4px rgb(0 0 0 / 60%);
+  filter: grayscale(0.2) brightness(75%) contrast(1.5);
+  transition: .3s;
+}
+.profile-logo-margin {
+  margin: 50px 7px -59px 5px;
+  background-image: src;
+ 
+}
+
 .section-profile-title {
   display: flex;
   flex-direction: column;
