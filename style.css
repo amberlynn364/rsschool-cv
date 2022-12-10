@@ -88,7 +88,7 @@ a {
     line-height: 50px;
     color: #fff;
     }
- 
+
 
 html {
     scroll-behavior: smooth; 
@@ -254,14 +254,14 @@ pre {
 }
 .footer {
   background-color: #14142b;
-  padding: 33px;
+  padding: 25px;
   max-width: 1440px;
   margin: 0 auto;
   width: 100%;
   }
 
 .footer-container {
-  display: block;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
@@ -275,9 +275,9 @@ pre {
 
 .rs-school {
   padding-left: 30px;
-  width: 100px;
-  height: 50px;
-  background-image: url("assets/svg/rs_school_js.svg");
+  width: 135px;
+  height: 45px;
+  background-image: url("assets/svg/rss.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
